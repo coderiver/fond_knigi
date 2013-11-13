@@ -1,0 +1,109 @@
+@import "base"
+* 
+	margin: 0
+	padding: 0 
+html, body 
+	height: 100%
+body
+	background: #E5E5E5 
+	+fl
+	font-weight: normal 
+	font-size: 14px
+	line-height: 1.4
+a img, fieldset 
+	border: none
+a
+	text-decoration: none
+	color: #000 
+li 
+	list-style: none
+textarea, button, select, input
+	border: none
+	outline: none
+	+fl
+button 
+	line-height: 1
+	cursor: pointer
+	&::-moz-focus-inner
+		padding: 0
+		border: 0
+table 
+	border-spacing: 0
+	border-collapse: collapse
+//general
+$hf: 100px
+.footer
+	height: $hf 
+.wrap
+	min-height: 100%
+	height: auto !important
+	height: 100%
+	margin: 0 auto (-$hf)
+.container
+	width: 1250px
+	margin: 0 auto
+.push
+	height: $hf
+	clear: both
+	
+//header
+.header
+	margin-bottom: 10px
+	background: #FFF 
+.header__in
+	position: relative
+	width: 1250px 
+	height: 178px
+	margin: 0 auto
+.logo
+	position: absolute
+	top: 20px
+	left: 25px
+	+s(logo)
+	+ht
+.nav
+	position: absolute
+	bottom: 0
+	left: 220px
+	font-size: 0
+	li
+		display: inline-block
+		vertical-align: top
+	a
+		display: block
+		height: 40px
+		padding: 0 15px
+		line-height: 40px
+		font-size: 16px
+		+tr(all .2s linear)
+		color: #000 
+		&:hover
+			background: $or
+			text-decoration: underline
+			color: #fff  
+.sc
+	position: absolute
+	right: 25px
+	bottom: 10px
+	font-size: 0
+.sc__list, .sc__title
+	display: inline-block
+	vertical-align: middle
+.sc__list
+	li
+		display: inline-block
+		margin-left: 4px
+		&:first-child
+			margin: 0
+	a
+		display: block
+.sc__title
+	margin-right: 10px 
+	font-size: 12px
+	color: #9D9D9D 
+.sc__vk
+	+s(vk)
+.sc__tw
+	+s(tw)
+.sc__fb
+	+s(fb)

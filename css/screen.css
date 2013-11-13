@@ -1,0 +1,79 @@
+@font-face { font-family: "Circe-Light"; src: url("../fonts/Circe-Light.eot"); src: url("../fonts/Circe-Light.eot") format("embedded-opentype"), url("../fonts/Circe-Light.woff") format("woff"); }
+
+@font-face { font-family: "Circe-Bold"; src: url("../fonts/Circe-Bold.eot"); src: url("../fonts/Circe-Bold.eot") format("embedded-opentype"), url("../fonts/Circe-Bold.woff") format("woff"); }
+
+@font-face { font-family: "Circe-ExtraBold"; src: url("../fonts/Circe-ExtraBold.eot"); src: url("../fonts/Circe-ExtraBold.eot") format("embedded-opentype"), url("../fonts/Circe-ExtraBold.woff") format("woff"); }
+
+* { margin: 0; padding: 0; }
+
+html, body { height: 100%; }
+
+body { background: #e5e5e5; font-family: "Circe-Light", Arial, Tahoma, sans-serif; font-weight: normal; font-size: 14px; line-height: 1.4; }
+
+a img, fieldset { border: none; }
+
+a { text-decoration: none; color: black; }
+
+li { list-style: none; }
+
+textarea, button, select, input { border: none; outline: none; font-family: "Circe-Light", Arial, Tahoma, sans-serif; }
+
+button { line-height: 1; cursor: pointer; }
+button::-moz-focus-inner { padding: 0; border: 0; }
+
+table { border-spacing: 0; border-collapse: collapse; }
+
+.footer { height: 100px; }
+
+.wrap { min-height: 100%; height: auto !important; height: 100%; margin: 0 auto -100px; }
+
+.container { width: 1250px; margin: 0 auto; }
+
+.push { height: 100px; clear: both; }
+
+.header { margin-bottom: 10px; background: white; }
+
+.header__in { position: relative; width: 1250px; height: 178px; margin: 0 auto; }
+
+.logo { position: absolute; top: 20px; left: 25px; background: url('../img/icons-s57b5a1d7ea.png') 0 0 no-repeat; width: 160px; height: 147px; font: 0/0 a; text-shadow: none; color: transparent; }
+
+.nav { position: absolute; bottom: 0; left: 220px; font-size: 0; }
+.nav li { display: inline-block; vertical-align: top; }
+.nav a { display: block; height: 40px; padding: 0 15px; line-height: 40px; font-size: 16px; -moz-transition: all 0.2s linear; -o-transition: all 0.2s linear; -webkit-transition: all 0.2s linear; -ms-transition: all 0.2s linear; transition: all 0.2s linear; color: black; }
+.nav a:hover { background: #ec9e6d; text-decoration: underline; color: white; }
+
+.sc { position: absolute; right: 25px; bottom: 10px; font-size: 0; }
+
+.sc__list, .sc__title { display: inline-block; vertical-align: middle; }
+
+.sc__list li { display: inline-block; margin-left: 4px; }
+.sc__list li:first-child { margin: 0; }
+.sc__list a { display: block; }
+
+.sc__title { margin-right: 10px; font-size: 12px; color: #9d9d9d; }
+
+.sc__vk { background: url('../img/icons-s57b5a1d7ea.png') 0 -233px no-repeat; width: 17px; height: 17px; }
+
+.sc__tw { background: url('../img/icons-s57b5a1d7ea.png') 0 -179px no-repeat; width: 17px; height: 17px; }
+
+.sc__fb { background: url('../img/icons-s57b5a1d7ea.png') 0 -206px no-repeat; width: 17px; height: 17px; }
+
+@font-face { font-family: "Circe-Light"; src: url("../fonts/Circe-Light.eot"); src: url("../fonts/Circe-Light.eot") format("embedded-opentype"), url("../fonts/Circe-Light.woff") format("woff"); }
+
+@font-face { font-family: "Circe-Bold"; src: url("../fonts/Circe-Bold.eot"); src: url("../fonts/Circe-Bold.eot") format("embedded-opentype"), url("../fonts/Circe-Bold.woff") format("woff"); }
+
+@font-face { font-family: "Circe-ExtraBold"; src: url("../fonts/Circe-ExtraBold.eot"); src: url("../fonts/Circe-ExtraBold.eot") format("embedded-opentype"), url("../fonts/Circe-ExtraBold.woff") format("woff"); }
+
+@font-face { font-family: "Circe-Light"; src: url("../fonts/Circe-Light.eot"); src: url("../fonts/Circe-Light.eot") format("embedded-opentype"), url("../fonts/Circe-Light.woff") format("woff"); }
+
+@font-face { font-family: "Circe-Bold"; src: url("../fonts/Circe-Bold.eot"); src: url("../fonts/Circe-Bold.eot") format("embedded-opentype"), url("../fonts/Circe-Bold.woff") format("woff"); }
+
+@font-face { font-family: "Circe-ExtraBold"; src: url("../fonts/Circe-ExtraBold.eot"); src: url("../fonts/Circe-ExtraBold.eot") format("embedded-opentype"), url("../fonts/Circe-ExtraBold.woff") format("woff"); }
+
+.m-sl { position: relative; }
+
+@font-face { font-family: "Circe-Light"; src: url("../fonts/Circe-Light.eot"); src: url("../fonts/Circe-Light.eot") format("embedded-opentype"), url("../fonts/Circe-Light.woff") format("woff"); }
+
+@font-face { font-family: "Circe-Bold"; src: url("../fonts/Circe-Bold.eot"); src: url("../fonts/Circe-Bold.eot") format("embedded-opentype"), url("../fonts/Circe-Bold.woff") format("woff"); }
+
+@font-face { font-family: "Circe-ExtraBold"; src: url("../fonts/Circe-ExtraBold.eot"); src: url("../fonts/Circe-ExtraBold.eot") format("embedded-opentype"), url("../fonts/Circe-ExtraBold.woff") format("woff"); }
